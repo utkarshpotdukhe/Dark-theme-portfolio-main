@@ -11,22 +11,22 @@ html {
 }
 
 body {
-  padding: 0;
-  margin: 0;
   font-family: "Roboto", sans-serif;
   background-color: #34353b;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
   height: 100vh;
-  padding: 36px 100px;
+  padding: 36px 10%;
   background-image: url(asset/model_bw.png);
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
   width: 100vw;
   opacity: 0.7;
-  
 }
 
 header nav {
@@ -34,7 +34,7 @@ header nav {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 90%;
+  width: 80%;
   z-index: 99;
 }
 
@@ -171,9 +171,8 @@ header nav .search i {
 }
 
 .about {
-  height: 40vh;
-  width: 100vw;
-  padding: 100px;
+  height: auto;
+  padding: 50px 10%;
 }
 
 .about h1 {
@@ -209,7 +208,7 @@ header nav .search i {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px 100px;
+  padding: 50px 10%;
 }
 
 .skills h1 {
@@ -264,11 +263,11 @@ header nav .search i {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px 100px;
+  padding: 50px 10%;
 }
 
 .portfolio h1 {
-  font-size: 56px;
+  font-size: 30px;
   font-weight: 700;
   color: #fbfbfb;
   font-family: "Libre Baskerville", serif;
@@ -321,7 +320,7 @@ header nav .search i {
 
 .portfolio-card .overlay h3 {
   color: #fbfbfb;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .portfolio-card .overlay p {
@@ -452,7 +451,7 @@ header nav .search i {
 
 .contact-me {
   width: 100vw;
-  padding: 100px;
+  padding: 100px 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -478,4 +477,10 @@ header nav .search i {
   display: flex;
   gap: 10px;
   margin-top: 7.5vh;
+}
+
+@media screen and (max-width: 768px) {
+  header nav {
+    width: 100%;
+  }
 }
