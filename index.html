@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+
+    
+    <header>
+        <nav>
+            <img src="asset/carepy_logo-1.svg" alt="">
+            <ul>
+                <li><a href="#" class="active">About</a></li>
+                <li><a href="#portfolio-loc">Portfolio</a></li>
+                <li><a href="#contact-loc">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="search">
+                <i class="ri-search-line"></i>
+            </div>
+        </nav>
+        <div class="landing">
+            <div class="intro">
+                <h3>I'M <Span>Utkarsh Potdukhe</Span><br>ReactJS Developer<br>Java Developer</h3>
+                
+            </div>
+            <div class="socials">
+                <div class="line"></div>
+            
+                <i class="ri-github-fill" onclick="openGitHubPage()"></i>
+                <i class="ri-linkedin-fill" onclick="openLinkedInPage()"></i>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <h1>About</h1>
+        <div class="description">
+            <div class="line"></div>
+            <p>Hello! I'm a Utkarsh Potdukhe and dedicated Full Stack Web Developer And Java development. I thrive on combining logical problem-solving with creative thinking to deliver robust and user-friendly web applications. My skills encompass a wide range of technologies, making me adept at both frontend and backend development.</p>
+        </div>
+    </section>
+    <section class="skills">
+        <h1>My Skills</h1>
+        <div class="cards">
+            <div class="skill-card">
+                <img src="asset/html.svg" alt="">
+                <h2>HTML</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/css.svg" alt="">
+                <h2>CSS</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/javascript.svg" alt="">
+                <h2>JavaScript</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/react.svg" alt="">
+                <h2>ReactJS</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/nodejs.svg" alt="">
+                <h2>NodeJS</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/mongodb.svg" alt="">
+                <h2>MongoDB</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/nextjs.svg" alt="">
+                <h2>Next.js</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/typescript-icon.svg" alt="">
+                <h2>TypeScript</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/tailwind-css.svg" alt="">
+                <h2>Tailwind CSS</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/file-type-firebase.svg" alt="">
+                <h2>Firebase</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/material-ui.svg" alt="">
+                <h2>Material UI</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/icons8-java-96.svg" alt="">
+                <h2>Java</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/mysql.svg" alt="">
+                <h2>MySQL</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/git.svg" alt="">
+                <h2>GIT</h2>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio-loc">
+        <h1>Project</h1>
+        <div class="portfolio-cards">
+            <div class="portfolio-card">
+                <img src="asset/images/c7a55ac92b159ddb37b74c316c3d5d0c.jpg" alt="">
+<div class="overlay">
+    <h3>Netflix clone</h3>
+    <p>Build a responsive web application that emulates the Netflix user interface using ReactJS and Vite</p>
+    <button onclick="openProjectDetails('https://netflix-clone-utkarshpotdukhe.netlify.app/')">See More -></button>
+</div>
+            </div>
+            <div class="portfolio-card">
+                <img src="asset/images/Screenshot (1722).png" alt="">
+                <div class="overlay">
+                    <h3>Slider Animations</h3>
+                    <p>As a passionate front-end developer, I undertook a project to enhance user experience by implementing a responsive slider animation using ReactJS</p>
+                    <button onclick="openProjectDetails('https://slider-animation-up.netlify.app/')">See More -></button>
+</div>
+            </div>
+            <div class="portfolio-card">
+                <img src="asset/images/Untitled design.png" alt="">
+                <div class="overlay">
+                    <h3>Social Media Design</h3>
+                    <p>Designed and developed a dynamic and responsive Social Media using ReactJS</p>
+                    <button onclick="openProjectDetails('https://social-media-up.netlify.app/')">See More -></button>
+</div>
+            </div>
+            <div class="portfolio-card">
+                <img src="asset/images/IMG_20240211_190136.jpg" alt="">
+                <div class="overlay">
+                    <h3>Student Crud</h3>
+                    <p>Developed a comprehensive CRUD (Create, Read, Update, Delete) application to manage student records using Java, MySQL, and Maven</p>
+                    <button onclick="openProjectDetails('https://github.com/utkarshpotdukhe/StudentCRUD.git')">See More -></button>
+</div>
+            </div>
+            <div class="portfolio-card">
+                <img src="asset/images/IMG_20240211_190120.jpg" alt="">
+                <div class="overlay">
+                    <h3>Library Management System</h3>
+                    <p>Designed and implemented a comprehensive Library Management System, leveraging Java, MySQL, and Maven to facilitate efficient CRUD (Create, Read, Update, Delete) operations.</p>
+                    <button>See More -></button>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+        
+    <section class="contact-me" id="contact-loc">
+        <h1>Contact Me</h1>
+        <div class="contact">
+            <div class="contact-card">
+                <i class="ri-message-3-line"></i>
+                <p>https://www.linkedin.com/in/utkarsh-potdukhe/</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-phone-line"></i>
+                <p>9823668825</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-map-pin-3-line"></i>
+                <p>Pune, India</p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
